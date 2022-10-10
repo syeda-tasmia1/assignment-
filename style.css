@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    background-image: linear-gradient(to bottom right,rgb(9, 9, 43),rgb(32, 32, 75) );
+}
+h6{
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(65, 48, 223);
+    font-size: x-small;
+}
+.section1{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.section1 p{
+    color: rgb(165, 161, 161);
+    margin: 0 auto;
+    max-width: 600px;
+}
+.section1 h1{
+    color: white;
+    margin: 10px 20px;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.second{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    margin: 15px;
+    padding: 20px;
+    height: auto;
+    width: 20%;
+}
+
+@media screen and (max-width: 650px) {
+
+    .second {
+        width: 80% !important;
+    }
+
+    .section1 {
+        padding: 10px 20px;
+    }
+
+    .container{
+        height: 200vh;
+    }
+    
+}
+.second:hover{
+    background-color: rgb(9, 9, 104);
+}
+.second h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.second p{
+    text-align: center;
+    color: rgb(165, 161, 161);
+}
+.second .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: radial-gradient(circle, rgb(81, 78, 133) 0%, rgb(4, 4, 71) 0%, rgba(163, 157, 157, 0) 0%, rgb(5, 32, 70) 44%, rgb(22, 62, 95) 67%);
+}
+.second img{
+    max-width: 60%;
+    display: block;
+    opacity: 0.9;
+}
